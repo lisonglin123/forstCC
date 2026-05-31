@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__chrome-devtools__new_page",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\Program Files\\\\Tencent\\\\WeChat\\\\WeChat.exe\")",
+      "Bash(cmd.exe /c start \"\" \"C:\\\\Program Files \\(x86\\)\\\\Tencent\\\\WeChat\\\\WeChat.exe\")",
+      "Bash(cmd.exe /c \"where /R C:\\\\Program Files WeChat.exe 2>nul\")",
+      "Bash(cmd.exe /c \"where /R C:\\\\Program Files \\(x86\\) WeChat.exe 2>nul\")",
+      "Bash(cmd.exe *)",
+      "mcp__chrome-devtools__select_page",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__take_screenshot",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__click",
+      "mcp__chrome-devtools__evaluate_script",
+      "Bash(python -X utf8 test_hello.py)",
+      "Bash(git config *)",
+      "Bash(git rm *)"
+    ]
+  }
+}
