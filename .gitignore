@@ -216,3 +216,32 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ============================================================
+# 项目自定义忽略规则 (forstCC)
+# ============================================================
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.sublime-workspace
+
+# 日志文件
+*.log
+logs/
+
+# Claude Code 本地会话
+.claude/sessions/
